@@ -50,8 +50,8 @@ Employee
 ##  Installation Guide
 
 ### Prerequisites
-- Python 3.8 or higher
-- pip package manager
+-Python 3.8 or higher
+-pip package manager
 
 ### Step 1: Clone the Repository
 
@@ -77,7 +77,7 @@ Mac / Linux
 -python
 -from app import db
 -db.create_all()
- -exit()
+-exit()
 
 ### Step 5: Run the Application
 -python run.py
