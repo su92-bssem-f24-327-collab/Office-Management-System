@@ -7,7 +7,7 @@ A complete **Office Management System** built with **Flask** (Python) and **SQLi
 ##  Login Credentials
 
 | Role         | Username  | Password  |
-|------        |--------- -|---------- |
+|--------------|--------- -|---------- |
 |  Admin       | `admin`   | `admin123 |
 |  Employee    | `employee1| `emp123`  |
 
@@ -57,11 +57,11 @@ cd office-management-system
 
 ### Step 2: Create Virtual Environment
 
-# Windows
+Windows
 python -m venv venv
 venv\Scripts\activate
 
-# Mac / Linux
+Mac / Linux
 python -m venv venv
 source venv/bin/activate
 
