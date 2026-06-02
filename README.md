@@ -6,10 +6,13 @@ A complete **Office Management System** built with **Flask** (Python) and **SQLi
 
 ##  Login Credentials
 
-| Role         | Username  | Password  |
-|--------------|--------- -|---------- |
-|  Admin       | `admin`   | `admin123 |
-|  Employee    | `employee1| `emp123`  |
+ Admin       
+  `admin`   
+  `admin123 
+
+Employee    
+ `employee1
+ `emp123`  
 
 ---
 
@@ -72,37 +75,19 @@ pip install flask-login
 
 ### Step 4: Initialize Database
 python
->>> from app import db
->>> db.create_all()
->>> exit()
+>> from app import db
+>> db.create_all()
+>> exit()
 
 ### Step 5: Run the Application
 python run.py
-Step 6: Open in Browser
+
+### Step 6: Open in Browser
 text
 http://127.0.0.1:5000
  Test Credentials
 Type	     Username    	Password
 Admin	     admin	      admin123
-Employee	 employee1	  emp123
+Employee	  employee1	  emp123
 
-📁 Project Structure
-office-management-system/
-├── app.py
-├── run.py
-├── models.py
-├── routes.py
-├── auth.py
-├── templates/
-│   ├── login.html
-│   ├── admin/
-│   │   ├── dashboard.html
-│   │   └── employees.html
-│   └── employee/
-│       └── dashboard.html
-├── static/
-│   ├── style.css
-│   └── script.js
-├── instance/
-│   └── database.db
-└── requirements.txt
+
