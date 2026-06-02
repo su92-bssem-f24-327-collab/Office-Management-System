@@ -56,34 +56,34 @@ Employee
 ### Step 1: Clone the Repository
 
 git clone https://github.com/yourusername/office-management-system.git
-cd office-management-system
+-cd office-management-system
 
 ### Step 2: Create Virtual Environment
 
 Windows
-python -m venv venv
-venv\Scripts\activate
+-python -m venv venv
+-venv\Scripts\activate
 
 Mac / Linux
-python -m venv venv
-source venv/bin/activate
+-python -m venv venv
+-source venv/bin/activate
 
 ### Step 3: Install Dependencies
-pip install flask
-pip install flask-sqlalchemy
-pip install flask-login
+-pip install flask
+-pip install flask-sqlalchemy
+-pip install flask-login
 
 ### Step 4: Initialize Database
-python
-from app import db
-db.create_all()
- exit()
+-python
+-from app import db
+-db.create_all()
+ -exit()
 
 ### Step 5: Run the Application
-python run.py
+-python run.py
 
 ### Step 6: Open in Browser
-text
+
 http://127.0.0.1:5000
  Test Credentials
 Type	     Username    	Password
