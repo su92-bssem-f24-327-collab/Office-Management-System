@@ -8,10 +8,10 @@ A complete **Office Management System** built with **Flask** (Python) and **SQLi
 
  Admin       
   `admin`   
-  `admin123 
+  `admin123` 
 
 Employee    
- `employee1
+ `employee1`
  `emp123`  
 
 ---
@@ -47,7 +47,7 @@ Employee
 
 ---
 
-## 📦 Installation Guide
+##  Installation Guide
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -75,9 +75,9 @@ pip install flask-login
 
 ### Step 4: Initialize Database
 python
->> from app import db
->> db.create_all()
->> exit()
+from app import db
+db.create_all()
+ exit()
 
 ### Step 5: Run the Application
 python run.py
